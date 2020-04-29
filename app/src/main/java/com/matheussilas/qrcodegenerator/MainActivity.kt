@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         editText = findViewById(R.id.editText)
     }
 
-
     fun gerar(view: View) {
         val text = editText.text.toString()
 
